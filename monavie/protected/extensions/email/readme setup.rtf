@@ -1,0 +1,98 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Bold;
+\f3\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red52\green52\blue52;\red17\green134\blue192;\red26\green26\blue26;
+\red251\green0\blue7;\red251\green251\blue251;\red109\green109\blue109;\red109\green111\blue5;\red0\green0\blue255;
+\red15\green112\blue3;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa360
+{\field{\*\fldinst{HYPERLINK "http://www.yiiframework.com/extension/email/"}}{\fldrslt 
+\f0\b\fs36 \cf2 http://www.yiiframework.com/extension/email/}}
+\f0\b\fs36 \cf2 \
+Documentation \cf3 \'b6\cf2 \
+\pard\pardeftab720\sa280
+
+\fs28 \cf2 Requirements \cf3 \'b6\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\b0 \cf4 {\listtext	\'95	}Yii 1.0.2 or above\
+\pard\pardeftab720\sa280
+
+\b \cf2 Installation \cf3 \'b6\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0
+\b0 \cf4 {\listtext	\'95	}Extract the release file under 
+\f1 protected/extensions
+\f0 \
+\pard\pardeftab720\sa280
+
+\b \cf2 Usage \cf3 \'b6\cf2 \
+\pard\pardeftab720\sa400
+
+\b0 \cf4 You can configure the extension as follows:\
+\pard\pardeftab720
+
+\f1\fs26 \cf5 \cb6 'components'\cf7 =>
+\f2\b \cf0 array
+\f1\b0 \cf8 (\cf7 \
+    \cf5 'email'\cf7 =>
+\f2\b \cf0 array
+\f1\b0 \cf8 (\cf7 \
+        \cf5 'class'\cf7 =>\cf5 'application.extensions.email.Email'\cf7 ,\
+        \cf5 'delivery'\cf7 =>\cf5 'php'\cf7 , 
+\f3\i //Will use the php mailing function.  
+\f1\i0 \
+        
+\f3\i //May also be set to 'debug' to instead dump the contents of the email into the view
+\f1\i0 \
+    \cf8 )\cf7 ,\
+...\
+\pard\pardeftab720\sa400
+
+\f0\fs28 \cf4 \cb1 You need to put the debug widget somewhere in the view or layout, if you wish to use debug mode\
+\pard\pardeftab720
+
+\f1\fs26 \cf9 \cb6 <?php\cf7  \cf9 $this\cf7 ->\cf10 widget\cf8 (\cf5 'application.extensions.email.debug'\cf8 )\cf7 ; \cf9 ?>\cf7 \
+\pard\pardeftab720\sa400
+
+\f0\fs28 \cf4 \cb1 Example code:\
+\pard\pardeftab720
+
+\f1\fs26 \cf9 \cb6 $email\cf7  = \cf10 Yii\cf7 ::\cf10 app\cf8 ()\cf7 ->\cf10 email\cf7 ;\
+\cf9 $email\cf7 ->\cf10 to\cf7  = \cf5 'admin@example.com'\cf7 ;\
+\cf9 $email\cf7 ->\cf10 subject\cf7  = \cf5 'Hello'\cf7 ;\
+\cf9 $email\cf7 ->\cf10 message\cf7  = \cf5 'Hello brother'\cf7 ;\
+\cf9 $email\cf7 ->\cf10 send\cf8 ()\cf7 ;\
+\pard\pardeftab720\sa400
+
+\f0\fs28 \cf4 \cb1 Instead of defining the message with 
+\f1 $email->message
+\f0 , you could instead define a view (and layout if you wish) to use as the email content. This is much more flexible and maintains MVC better.\
+\pard\pardeftab720\sa360
+
+\b\fs36 \cf2 Change Log \cf3 \'b6\cf2 \
+\pard\pardeftab720\sa280
+
+\fs28 \cf2 January 12, 2009 \cf3 \'b6\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0
+\b0 \cf4 {\listtext	\'95	}Initial release 1.0\
+\pard\pardeftab720\sa280
+
+\b \cf2 January 23, 2009 \cf3 \'b6\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls4\ilvl0
+\b0 \cf4 {\listtext	\'95	}Updated to support multi-byte and different languages.\
+\pard\pardeftab720\sa280
+
+\b \cf2 January 24, 2009 \cf3 \'b6\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls5\ilvl0
+\b0 \cf4 {\listtext	\'95	}2nd attempt to support multi-byte.}

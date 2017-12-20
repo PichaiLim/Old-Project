@@ -1,0 +1,205 @@
+/* 
+    Document   : MainStyle
+    Created on : Jul 31, 2013, 12:44:19 AM
+    Author     : pichailimpanitivat
+    Description:
+        Purpose of the stylesheet follows.
+     
+        # span 1-12
+        # Carousel
+*/
+
+head, body{
+    background-image:url('../images/bg01.png');
+}
+.bg-line{
+    background-color: #f36921;
+    height: 10px;
+}
+
+#bg-orgen{
+    background-color: #f36921;
+}
+
+.border1
+{
+    border: 1px solid black;
+}
+
+.margin0{
+    margin: 0px;
+}
+
+.marginT0{
+    margin-top: 0px;
+}
+
+.marginL0{
+    margin-left: 0px;
+}
+
+.marginR0{
+    margin-right: 0px;
+}
+
+.marginB0{
+    margin-bottom: 0px;
+}
+/*
+.span1{
+    border: 1px solid black;
+}
+.span2{
+    border: 1px solid black;
+}
+.span3{
+    border: 1px solid black;
+}
+.span4{
+    border: 1px solid black;
+}
+.span5{
+    border: 1px solid black;
+}
+.span6{
+    border: 1px solid black;
+}
+.span8{
+    border: 1px solid black;
+}
+.span9{
+    border: 1px solid black;
+}
+.span10{
+    border: 1px solid black;
+}
+.span11{
+    border: 1px solid black;
+}
+.span12{
+    border: 1px solid black;
+}*/
+
+
+/* Space Margin */
+.space-margin-all{
+    margin: 5px;
+}
+.space-margin-top{
+    margin: 5px;
+}
+.space-margin-bottom{
+    margin-bottom: 5px;
+}
+.space-margin-all{
+    margin-left: 5px;
+}
+.space-margin-right{
+    margin-right: 5px;
+}
+
+/* Space Padding*/
+.space-padding-all{
+    padding: 5px;
+}
+.space-padding-top{
+    padding-top: 5px;
+}
+.space-padding-bottom{
+    padding-bottom: 5px;
+}
+.space-padding-left{
+    padding-left: 5px;
+}
+.space-padding-right{
+    padding-right: 5px;
+}
+
+/* Clear Margin */
+.clear-margin-all{
+    margin: 0px;
+}
+.clear-margin-bottom{
+    margin-bottom: 0px;
+}
+.clear-margin-top{
+    margin-top: 0px;
+}
+.clear-margin-left{
+    margin-left: 0px;
+}
+.clear-margin-right{
+    margin-right: 0px;
+}
+
+/* Celar Padding */
+.clear-padding-all{
+    padding: 0px;
+}
+.clear-padding-top{
+    padding-top: 0px;
+}
+.clear-padding-bottom{
+    padding-bottom: 0px;
+}
+.clear-padding-all{
+    padding-left: 0px;
+}
+.clear-padding-right{
+    padding-right: 0px;
+}
+
+/*
+    Carousel
+    #myCarousel .item img
+    #myCarousel .item div
+*/
+/*#myCarousel .item img{
+    width: 980px;1200px
+    height: 300px;450px
+    margin: 0 auto;
+    padding: 10px;
+}
+#myCarousel .item div{
+    background-color:  #660066; 
+    color: white; 
+    padding: 5px;
+    height: 90px;
+}
+*/
+#myimage{
+    width: 150px;
+    height: 140px;
+}
+
+.carousel-inner div img{
+    height: 320px; width:641px;
+}
+
+.list-view .items .row{
+    /*border: 1px solid black;*/
+    margin-left: 5px;
+}
+
+.tab-content{
+    /*background-color: #cccccc;*/
+}
+.navtab{
+    background-color: #f36921;
+}
+.navtab a{
+    color: white;
+}
+.navtab a:hover{
+    color: black;
+}
+
+.box-shadow{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);/*ขนาดเงา*/
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+}
+
+#page-980{
+    width: 980px;
+}

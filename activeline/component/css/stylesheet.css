@@ -1,0 +1,118 @@
+hr {
+    border: 1px solid crimson;
+}
+
+.page-header {
+    color: #dd1111;
+    border-bottom: 1px solid #000000;
+    font-family: 'Stoke', 'Trirong', serif;
+}
+
+.page-header-clear-padding-top {
+    padding-top: 0;
+}
+
+#nav-header {
+    background-color: #555555;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#nav-footer {
+    background-color: rgb(85, 85, 85);
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+/*link*/
+.nav-social-header {
+    color: #9d9d9d;
+}
+
+.nav-social-header:hover {
+    color: #FFFFFF;
+}
+
+.nav-social-header:visited {
+    color: #FFFFFF;
+}
+
+#programs {
+    background-image: url("../../image/demo/texture-bw.png");
+    background-color: rgb(232, 232, 232);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content {
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    padding: 16px 20px 16px 20px;
+}
+
+.media-body > ul > li {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+body {
+    -o-position: relative;
+    position: relative;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.affix ~ .container-fluid {
+    -o-position: relative;
+    position: relative;
+    top: 50px;
+}
+
+.img-shadow {
+    -webkit-box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 1);
+    -o-box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 1);
+    box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 1);
+    margin: 0 auto;
+}
+
+.slide {
+    background-color: rgba(221, 17, 17, 0.9);
+}
+
+footer {
+    padding-top: 50px;
+}
+
+.footer-email {
+    color: #e8e8e8;
+}
+
+.footer-email:hover, .footer-email:active {
+    color: #FFFFFF;
+}
+
+.navbar-default {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: rgb(221, 17, 17);
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+    color: rgba(221, 17, 17, 0.7);
+}
+
+.flag {
+    width: 20px;
+    max-height: 20px;
+}

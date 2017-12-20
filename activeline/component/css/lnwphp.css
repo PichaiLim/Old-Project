@@ -1,0 +1,250 @@
+/*lnwphp.in.th*/
+.header_bg {
+    text-align: center;
+    text-align: -webkit-center;
+    position: fixed;
+    z-index: 9999;
+    /*background-color: rgb(219, 219, 219);*/
+    height: 60px;
+    width: 100%;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+.teltext {
+    padding: 0px;
+    margin: 0px;
+}
+
+.tel {
+    text-align: -webkit-right;
+    margin-top: -61px;
+    text-align: right;
+    margin-right: 30px;
+    color: white;
+}
+
+.dbdlogo {
+    margin-top: -30px;
+    margin-right: 60px;
+}
+
+figure figcaption {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    bottom: 10px;
+    right: 20px;
+    position: absolute;
+    background-color: #000;
+}
+
+figure {
+    position: relative;
+}
+
+.magintop {
+    background-color: rgb(23, 77, 136);
+    height: 60px;
+}
+
+.pantop20 {
+    padding-bottom: 20px;
+}
+
+.divtop {
+    margin-top: -16px;
+}
+
+.max1600 {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.news {
+    background-color: #2780E3;
+    margin-top: -21px;
+    padding-top: 21px;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    background-color: #FF0039;
+    padding-top: 21px;
+    margin-top: -21px;
+    margin-bottom: 20px;
+}
+
+.video {
+    background-color: #2780E3;
+    padding-top: 21px;
+    margin-top: -21px;
+}
+
+.pageshowmenu {
+    background-color: rgba(26, 87, 153, 0.5);
+    padding-top: 21px;
+    margin-top: -21px;
+}
+
+.pageshowmenu2 {
+    background-color: rgba(0, 0, 0, 0.52);
+    padding-top: 21px;
+    margin-top: -21px;
+}
+
+.event {
+    background-color: #9954BB;
+    padding-top: 21px;
+    margin-top: -21px;
+    margin-bottom: 20px;
+}
+
+.max42 {
+    min-height: 42px;
+    max-height: 42px;
+}
+
+.max73 {
+    min-height: 73px;
+    max-height: 90px;
+}
+
+.max269 {
+    min-height: 269px;
+    max-height: 269px;
+}
+
+.marquee_ {
+    position: absolute;
+    margin-top: -30px;
+    direction: ltr;
+    width: 730px;
+    margin-left: -380px;
+}
+
+.vinlink {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666666;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.style_news {
+    border-bottom: 1px dashed #DDD;
+    margin-bottom: 2px;
+    padding: 4px;
+    /*min-height: 285px;*/
+}
+
+.data_list {
+    height: 100px;
+}
+
+a {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    color: #525050;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.p5 {
+    padding-left: 5px;
+}
+
+.font_bold {
+    font-weight: bold;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.no_padding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer_bg {
+    background-color: #000000;
+    color: #FFF;
+    font: normal 10pt Verdana, Geneva, sans-serif;
+    text-align: -webkit-center;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.sitemap_bg {
+    background-color: #001227;
+    color: #FFF;
+    font: normal 10pt Verdana, Geneva, sans-serif;
+    min-height: 100px;
+    padding-bottom: 15px;
+    border-bottom: solid #2780E3;
+    border-top: solid #3FB618;
+}
+
+.sitemap_bg ul, p {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.sitemap_bg li a {
+    color: #FFF;
+}
+
+.text-center {
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+div.product_sale {
+    padding: 0px;
+}
+
+div.product_sale:hover {
+    padding: 0px;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.inner-block {
+    display: -webkit-inline-box;
+    display: inline-block;
+}
+
+.panding5 {
+    padding: 5px;
+}
+
+.imgrounded {
+    border-radius: 5px;
+}
+
+.bx-wrapper {
+    margin: 0 auto 20px;
+}
+
+.alert-successl {
+    background-color: #2780E3;
+    border-color: #2780E3;
+    color: #ffffff;
+}

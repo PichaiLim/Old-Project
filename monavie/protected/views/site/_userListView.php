@@ -1,0 +1,1 @@
+<p><?php echo CHtml::encode("คุณ" . $data->name . ' ' . mb_substr($data->lastname, 0, 10, 'utf-8') . '… '. date('d-m-Y', strtotime($data->joindate))); ?> </p>

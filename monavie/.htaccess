@@ -1,0 +1,24 @@
+#deny from all
+
+RewriteEngine on
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# otherwise forward it to index.php
+RewriteRule . index.php
+
+#DirectoryIndex index.php index.html index.htm
+#Options +FollowSymLinks
+#IndexIgnore */*
+#<IfModule mod_rewrite.c>
+#RewriteEngine on
+#RewriteBase /~username/maindir/yiiapp
+
+# if a directory or a file exists, use it directly
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+#RewriteRule . index.php
+#</IfModule>
+#http://stackoverflow.com/questions/13528009/what-is-wrong-with-this-htaccess-and-yii-urlmanager-settings

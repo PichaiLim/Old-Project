@@ -1,0 +1,15 @@
+RewriteEngine on
+
+# กรณีต้องการให้เข้าเว็บด้วย www. ให้ลบ # ด้านหน้าออก
+#RewriteCond %{SERVER_NAME} !^www\.
+#RewriteRule ^.*$ http://www.%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+# กรณีต้องการให้เข้าเว็บด้วย https ให้ลบ # ด้านหน้าออก
+#RewriteCond %{HTTPS} off
+#RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+# ทำ URL เว็บให้ติด Google ได้ง่าย
+RewriteRule ^index.html$ index.php
+RewriteRule ^(.*)-(.*)@(.*).html$ index.php?page=$1&id=$2&name=$3
+
+ErrorDocument 404 /index.php?page=404
